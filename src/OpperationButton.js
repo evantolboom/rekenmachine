@@ -1,9 +1,9 @@
 import { ACTIONS } from "./App";
 
-export default function OpperationButton({ dispatch, opration }) {
+export default function OpperationButton({ dispatch, operation }) {
     return <button 
-               onClick={() => dispatch({ type: ACTIONS.CHOOSE_OPERATION, payload: { opration } })}
+               onClick={() => dispatch({ type: ACTIONS.CHOOSE_OPERATION, payload: { operation } })}
            >
-            {opration}
+            {operation}
         </button>
 }
